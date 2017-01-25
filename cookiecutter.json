@@ -1,0 +1,11 @@
+{
+    "author": "Ian Fang",
+    "email": "xingang.fang@gmail.com",
+    "name": "my project",
+    "slug": "{{ cookiecutter.name.lower().replace(' ', '_') }}",
+    "version": "0.1.0",
+    "description": "Short description of this package",
+    "repo_host": "https://github.com",
+    "repo_host_account": "IanFang",
+    "repo_url": "{{ cookiecutter.repo_host }}/{{ cookiecutter.repo_host_account }}/{{ cookiecutter.slug }}.git"
+}
