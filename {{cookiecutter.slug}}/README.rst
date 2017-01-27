@@ -24,8 +24,8 @@ Directory
 - **data/interim:** Temporary and interim datasets
 - **docs:** Package documentation (Sphinx)
 - **tests** Unit tests
-- **report** Scientific reports
-- **reference** Reference documents
+- **reports** Scientific reports
+- **references** Reference documents
 
 Authors
 -------

@@ -93,3 +93,6 @@ ENV/
 # PyCharm
 .idea/
 
+# Data folder (data should be backed up in another repository)
+data/
+
