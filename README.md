@@ -14,7 +14,12 @@ Update the classifiers in `setup.py` to fit the need. [Reference](https://pypi.p
 
 Fill out the README, and add a license to the project.
 
-### README and other files
+### Features
+
+* **git integration**
+    git repository generated with initial commit and git remote url setup
+
+### Notes
 
 * **README should use reStructuredText format**
     This is the format used by most Python tools, i.e. [Sphinx](http://sphinx-doc.org/).
