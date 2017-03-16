@@ -32,3 +32,14 @@ Fill out the README, and add a license to the project.
     Can be changed. pytest is a powerful test library and runner than the standard library's unittest.
 
 * **tox as test automation tool**
+
+### TODO
+
+* global change
+	- change index files to readme file
+
+* data folder:
+	- add instruction in the top level readme about suggestions on how to organize file
+	- metadata should be version controlled but data file should not (change gitignore)
+
+* more git automation in fabfile, create dev branch in hook also
