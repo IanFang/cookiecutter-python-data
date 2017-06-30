@@ -93,6 +93,9 @@ ENV/
 # PyCharm
 .idea/
 
-# Data folder (data should be backed up in another repository)
-data/
-
+# Data folder, only keep index files (data should be backed up in another repository)
+!data
+data/*
+!data/*
+data/*/*
+!data/*/index.txt
