@@ -10,7 +10,7 @@ work_path = os.path.dirname(os.path.realpath(__file__))
 
 
 def push():
-    with cd(work_path):
+    with lcd(work_path):
         local('git checkout master')
         local('git push origin master')
         local('git checkout dev')
@@ -18,7 +18,7 @@ def push():
 
 
 def pull():
-    with cd(work_path):
+    with lcd(work_path):
         local('git checkout master')
         local('git pull origin master')
         local('git checkout dev')
@@ -26,6 +26,23 @@ def pull():
 
 
 def ckupd():
-    with cd(work_path):
+    with lcd(work_path):
         local('git fetch')
         local('gitk --all')
+
+
+def clean():
+    with lcd(work_path):
+        local('rm -rf tests/*.pyc')
+        local('sudo rm -rf tests/__pycache__')
+
+
+def reindex():
+    dirs = ['data/interim',
+            'data/processed',
+            'data/raw',
+            'data/results']
+    for dir in dirs:
+        loc = os.path.join(work_path, dir)
+        with lcd(loc):
+            local('ls -1 -I index.txt > index.txt')
