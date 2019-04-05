@@ -1,4 +1,7 @@
-"""{{ cookiecutter.name }} - {{ cookiecutter.description }}"""
+"""
+{{ cookiecutter.name }}
+{{ cookiecutter.description }}
+"""
 
 __version__ = '{{ cookiecutter.version }}'
 __author__ = '{{ cookiecutter.author }} <{{ cookiecutter.email }}>'

@@ -9,9 +9,12 @@ Usage
 
 Installation
 ------------
+poetry install
 
 Requirements
 ------------
+python 3.6+
+poetry
 
 License
 -------
@@ -19,6 +22,7 @@ License
 Directory
 ---------
 
+- **src** Source codes
 - **data/raw:** Immutable original datasets
 - **data/processed:** Processed datasets
 - **data/interim:** Temporary and interim datasets
